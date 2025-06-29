@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.wwi-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.wwi-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url(/images/wwi-bg.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  filter: blur(8px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  margin-left: -20px;
+  color: black;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+.hero {
+  background-image: url(../public/images/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.hero-slider {
+  background-image: url(../public/images/hero-bg-01.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
