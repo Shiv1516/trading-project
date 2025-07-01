@@ -1,0 +1,67 @@
+import { Link } from "react-router-dom";
+
+function ABS() {
+  return (
+    <div className="abs-section px-4 md:px-10 lg:px-[14rem] py-30 w-[70%] m-auto text-center">
+      {/* <span className="w-30 h-30 bg-blue-600 flex rounded-full "></span> */}
+      <h2 className="text-5xl font-bold mb-4">All Brokers Supported</h2>
+      <h5 className="text-2xl font-semibold italic mb-3">
+        AlgoDelta's Algo Trading Platform is compatible with various standard
+        trading API providers and brokers.
+      </h5>
+      <p className="text-gray-300 leading-7 text-lg mb-4">
+        Our compatibility with multiple brokers ensures that our clients have a
+        wide range of options to choose from, based on their preferences and
+        trading strategies. Whether you use a broker for low latency execution,
+        high-frequency trading, or for a simple and cost-effective way to trade,
+        we have you covered.We understand the importance of using a trusted and
+        reliable broker, which is why we make sure to work with only the best
+        providers in the industry. Our team regularly tests and evaluates the
+        performance of our supported brokers to make sure that they are
+        providing our clients with the best possible trading experience.
+      </p>
+      <div className="flex gap-4 items-center m-auto justify-center pt-6 mb-4">
+        <img
+          src="images/abs-icon.png"
+          alt="abs-icon"
+          className="w-12 h-12 rounded"
+        />
+        <img
+          src="images/abs-icon.png"
+          alt="abs-icon"
+          className="w-12 h-12 rounded"
+        />
+        <img
+          src="images/abs-icon.png"
+          alt="abs-icon"
+          className="w-12 h-12 rounded"
+        />
+        <img
+          src="images/abs-icon.png"
+          alt="abs-icon"
+          className="w-12 h-12 rounded"
+        />
+        <img
+          src="images/abs-icon.png"
+          alt="abs-icon"
+          className="w-12 h-12 rounded"
+        />
+        <img
+          src="images/abs-icon.png"
+          alt="abs-icon"
+          className="w-12 h-12 rounded"
+        />
+        <p className="text-orange-400">+28 others</p>
+      </div>
+      <div className="inline-block mt-8">
+        <Link
+          className="flex items-center bg-blue-500 text-white px-8 py-5 rounded-full text-lg font-medium"
+          to="/"
+        >
+          Don't have Account? Open here
+        </Link>
+      </div>
+    </div>
+  );
+}
+export default ABS;
