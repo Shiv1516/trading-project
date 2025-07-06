@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function ABS() {
   return (
-    <div className="abs-section px-4 md:px-10 lg:px-[14rem] py-20 w-[70%] m-auto text-center relative z-10">
-      <span className="w-[60vh] h-[30vh] bg-blue-600 flex rounded-b-full absolute z-[-1] m-auto translate-x-[25%] translate-y-0"></span>
+    <div className="abs-section px-4 md:px-10 lg:px-[14rem] py-10 w-[70%] m-auto text-center relative z-10">
+      <span className="w-[60vh] h-[30vh] bg-blue-600 lg:flex md:hidden sm:hidden rounded-b-full absolute z-[-1] m-auto translate-x-[19%] translate-y-0"></span>
       <h2 className="text-5xl font-bold mb-4 pt-15">All Brokers Supported</h2>
       <h5 className="text-2xl font-semibold italic mb-3">
         AlgoDelta's Algo Trading Platform is compatible with various standard
@@ -61,7 +61,7 @@ function ABS() {
           Don't have Account? Open here
         </Link>
       </div>
-      <span className="w-[20vh] h-[10vh] bg-orange-600 flex rounded-t-full m-auto"></span>
+      <span className="w-[20vh] h-[10vh] bg-orange-600 lg:flex md:hidden sm:hidden rounded-t-full m-auto"></span>
     </div>
   );
 }

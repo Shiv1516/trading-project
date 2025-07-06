@@ -9,7 +9,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#000000a8] text-white shadow-md fixed top-0 left-0 w-full z-50">
+    <header className="bg-[#000000a8] text-white shadow-md sticky top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center px-4 md:px-10 lg:px-[14rem] py-4">
         <Link to="/index" className="text-2xl font-bold">
           <img src="/images/logo.png" alt="logo" className="w-40 md:w-48" />
