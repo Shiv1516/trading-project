@@ -9,22 +9,23 @@ import Products from "./Pages/Products";
 import Pricing from "./Pages/Pricing";
 import CopyTrading from "./Pages/CopyTrading";
 import Footer from "./Component/Footer";
+import "./index.css";
 
 function App() {
   return (
     <div className="bg-[#111111] text-white">
       <Header />
-      <Routes>  
-      <Route path="/" element={<Home />} />
-        <Route path="/index" element={<Home/>}/>
-        <Route path="/about" element={<AboutUs/>}/> 
-        <Route path="/services" element={<Services/>}/>
-        <Route path="/blogs" element={<Blogs/>}/>
-        <Route path="/products" element={<Products/>}/>
-        <Route path="/pricing" element={<Pricing/>}/>
-        <Route path="/copytrading" element={<CopyTrading/>}/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/index" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/copytrading" element={<CopyTrading />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
