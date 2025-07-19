@@ -22,7 +22,7 @@ function ABS() {
         performance of our supported brokers to make sure that they are
         providing our clients with the best possible trading experience.
       </p>
-      <div className="flex gap-4 items-center m-auto justify-center pt-6 mb-4">
+      <div className="flex gap-4 items-center m-auto justify-center pt-6 mb-4 w-full">
         <img
           src="images/abs-icon.png"
           alt="abs-icon"
