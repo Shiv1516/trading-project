@@ -1,12 +1,4 @@
 @import "tailwindcss";
-/* @import "tailwindcss/preflight"; */
-/* @tailwind utilities; */
-/* @tailwind base; */
-/* @tailwind components; */
-
-/* @tailwind base; */
-/* @tailwind components; */
-/* @import "tailwindcss/preflight"; */
 @import "tailwindcss/utilities";
 @tailwind utilities;
 
@@ -23,7 +15,6 @@
   width: 50%;
   height: 100%;
   background-image: url(../public/images/wwi-bg.png);
-  /* background-image: url(/../images/wwi-bg.png); */
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
@@ -43,22 +34,16 @@
 }
 .hero {
   background-image: url(../public/images/hero-bg.png);
-  /* background-image: url(../images/hero-bg.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
 }
 .hero-slider {
   background-image: url(../public/images/hero-bg-01.webp);
-  /* background-image: url(../images/hero-bg-01.webp); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media only screen and (max-width: 700px) {
-  .hero {
-    height: 40vh;
-  }
-}
+
