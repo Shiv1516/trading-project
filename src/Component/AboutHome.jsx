@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function AboutHome() {
   return (
-    <div className="px-4 md:px-10 lg:px-[14rem] py-10">
+    <div className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
       <div className="breadcrum text-sm flex items-center gap-3">
         <Link href="/index">Home</Link>
         <span>&#8226;</span>
@@ -10,8 +10,8 @@ function AboutHome() {
       </div>
 
       <div className="flex flex-wrap mt-4">
-        <div className="lg:w-1/2 md:w-full sm:w-full w-full">
-          <h3 className="text-3xl md:text-4xl lg:text-5xl font-semibold max-w-3xl leading-snug mb-4">
+        <div className="lg:w-1/2 md:w-full sm:w-full w-full lg:mb-0 md:mb-4 sm:mb-4 mb-4">
+          <h3 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-semibold max-w-3xl leading-snug mb-4">
             About Us
           </h3>
           <p className="leading-6 text-gray-300 mb-4">

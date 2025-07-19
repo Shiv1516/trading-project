@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Connect() {
   return (
-    <div className="px-4 md:px-10 lg:px-[14rem] py-4">
-      <div className="flex flex-wrap bg-blue-600 p-10 rounded-4xl">
-        <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full">
-          <h2 className="text-5xl font-bold mb-5 leading-14">
+    <div className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4">
+      <div className="flex flex-wrap bg-blue-600 p-10  rounded-4xl">
+        <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:mb-0 md:mb-4 sm:mb-4 mb-4">
+          <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl  font-bold mb-5 leading-14">
             Let's Create an Amazing Project Together!
           </h2>
           <p className="leading-8 mb-6 text-lg">

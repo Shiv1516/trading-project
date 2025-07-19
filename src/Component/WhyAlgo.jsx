@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 function WhyAlgo() {
   return (
-    <div className="whyalgo-section px-4 md:px-10 lg:px-[14rem] py-4 mt-10">
+    <div className="whyalgo-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 mt-10">
       <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-8 justify-center">
         <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>Important Notice
         !!
@@ -16,9 +16,11 @@ function WhyAlgo() {
         </Marquee>
       </div>
 
-      <div className="flex justify-center py-8 mb-6">
+      <div className="flex justify-center lg:py-8 md:py-4 sm:py-3 lg:mb-6 md:mb-3 sm:mb-2">
         <div className="lg:w-[60%] md:w-full sm:w-full text-center">
-          <h2 className="text-5xl font-bold mb-4">Why Algodelta</h2>
+          <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-4">
+            Why Algodelta
+          </h2>
           <p className="leading-6 text-gray-300">
             Choose Algodelta for cutting-edge trading solutions that empower you
             with innovative tools and effortless API integration, enabling
@@ -34,7 +36,7 @@ function WhyAlgo() {
               alt="whyalgo"
               className="w-full max-h-[300px] object-contain"
             />
-            <div className="p-3">
+            <div className="lg:p-3 md:p-2 sm:p-2 p-2">
               <h4 className="text-xl font-bold mb-4">Cross-Broker Platform</h4>
               <p className="leading-7 text-gray-300">
                 Trade with confidence across 25+ integrated brokers. AlgoDelta’s
@@ -52,7 +54,7 @@ function WhyAlgo() {
               className="w-full max-h-[300px] object-contain"
             />
 
-            <div className="p-3">
+            <div className="lg:p-3 md:p-2 sm:p-2 p-2">
               <h4 className="text-xl font-bold mb-4">Cross-Broker Platform</h4>
               <p className="leading-7 text-gray-300">
                 Stay in sync with your broker — view accurate P&L, open
@@ -70,7 +72,7 @@ function WhyAlgo() {
               alt="whyalgo"
               className="w-full max-h-[300px] object-contain"
             />
-            <div className="p-3">
+            <div className="lg:p-3 md:p-2 sm:p-2  p-2">
               <h4 className="text-xl font-bold mb-4">Cross-Broker Platform</h4>
               <p className="leading-7 text-gray-300">
                 Trade with confidence across 25+ integrated brokers. AlgoDelta’s
@@ -87,7 +89,7 @@ function WhyAlgo() {
               alt="whyalgo"
               className="w-full max-h-[300px] object-contain"
             />
-            <div className="p-3">
+            <div className="lg:p-4 md:p-2 sm:p-2 p-2">
               <h4 className="text-xl font-bold mb-4">Cross-Broker Platform</h4>
               <p className="leading-7 text-gray-300">
                 Trade with confidence across 25+ integrated brokers. AlgoDelta’s

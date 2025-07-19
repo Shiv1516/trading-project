@@ -1,8 +1,8 @@
 function Algo() {
   return (
-    <div className="wwi-section flex flex-wrap items-center px-4 md:px-10 lg:px-[14rem] py-10">
-      <div className="lg:w-1/2 md:w-full sm:w-full">
-        <div className="lg:mr-8 md:mr-0 sm:mr-0">
+    <div className="wwi-section flex flex-wrap items-center lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
+      <div className="lg:w-1/2 md:w-full sm:w-full w-full lg:mb-0 md:mb-4 sm:mb-4 mb-4">
+        <div className="lg:mr-8 md:mr-0 sm:mr-0 ">
           <img
             src="images/wwr-side-img.jpg"
             alt="wwr-side"
@@ -10,7 +10,7 @@ function Algo() {
           />
         </div>
       </div>
-      <div className="lg:w-1/2 md:w-full sm:w-full">
+      <div className="lg:w-1/2 md:w-full sm:w-full w-full">
         <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-5">
           <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>Why AlgoDelta?
         </h4>

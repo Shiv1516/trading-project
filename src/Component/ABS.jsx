@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 
 function ABS() {
   return (
-    <div className="abs-section px-4 md:px-10 lg:px-[14rem] py-10 w-[70%] m-auto text-center relative z-10">
-      <span className="w-[60vh] h-[30vh] bg-blue-600 lg:flex md:hidden sm:hidden rounded-b-full absolute z-[-1] m-auto translate-x-[19%] translate-y-0"></span>
-      <h2 className="text-5xl font-bold mb-4 pt-15">All Brokers Supported</h2>
+    <div className="abs-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10 lg:w-[70%] md:w-full sm:w-full w-full m-auto text-center relative z-10">
+      <span className="w-[60vh] h-[30vh] bg-blue-600 lg:flex md:hidden sm:hidden hidden rounded-b-full absolute z-[-1] m-auto translate-x-[19%] translate-y-0"></span>
+      <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-4 pt-15">
+        All Brokers Supported
+      </h2>
       <h5 className="text-2xl font-semibold italic mb-3">
         AlgoDelta's Algo Trading Platform is compatible with various standard
         trading API providers and brokers.
@@ -51,7 +53,9 @@ function ABS() {
           alt="abs-icon"
           className="w-12 h-12 rounded"
         />
-        <p className="text-orange-400">+28 others</p>
+        <p className="text-orange-400 lg:flex md:flex sm:hidden hidden">
+          +28 others
+        </p>
       </div>
       <div className="inline-block my-8">
         <Link

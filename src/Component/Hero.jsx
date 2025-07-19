@@ -38,8 +38,8 @@ const Hero = () => {
   return (
     <div className="hero-slider">
       <div className="hero flex">
-        <div className="lg:w-[40%] md:w-full sm:w-full flex justify-center flex-col items-center m-auto">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 leading-14 text-center">
+        <div className="lg:w-[40%] md:w-full sm:w-full w-full flex justify-center flex-col items-center m-auto">
+          <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-semibold mb-4 leading-14 text-center">
             India's Best Copy Trading Software
           </h2>
           <p className="leading-8 text-xl mb-4 text-center">
@@ -60,7 +60,7 @@ const Hero = () => {
       </div>
       <h4 className="text-lg font-medium text-center pb-6">
         All Brokers Supported
-        <div className="mt-6 px-4 w-[60%] m-auto">
+        <div className="mt-6 px-4 lg:w-[60%] md:w-full sm:w-full w-full m-auto">
           <Slider {...settings}>
             {images.map((src, index) => (
               <div key={index} className="flex justify-center px-3">

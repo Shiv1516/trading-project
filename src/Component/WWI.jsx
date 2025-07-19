@@ -52,11 +52,11 @@ function WWI() {
 
   return (
     <div className="wwi-bg py-30">
-      <div className="wwi-section relative z-10 px-4 md:px-10 lg:px-[14rem] py-4 mt-20">
+      <div className="wwi-section relative z-10 lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 lmt-20">
         <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-5">
           <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>We Work In
         </h4>
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold max-w-3xl leading-snug">
+        <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-semibold max-w-3xl leading-snug">
           Types of Algo Trading Strategies We Develop
         </h2>
 

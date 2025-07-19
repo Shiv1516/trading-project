@@ -1,9 +1,10 @@
-
 export default function CopyTradingSection() {
   return (
     <section className="bg-black text-white py-20 px-4 md:px-12 lg:px-28 relative overflow-hidden">
       <div className="text-center mb-10">
-        <h2 className="text-4xl md:text-5xl font-bold mb-4">Copy Trading</h2>
+        <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-4">
+          Copy Trading
+        </h2>
         <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto">
           Copy trades from Master Account to multiple Child Accounts with
           multiplier & fixed lot modes. Enjoy seamless, high-speed execution for
@@ -20,8 +21,8 @@ export default function CopyTradingSection() {
         </div>
       </div>
 
-      <div className="bg-zinc-900 rounded-xl p-6 md:p-10 max-w-5xl mx-auto mt-10 flex">
-        <div>
+      <div className="bg-zinc-900 rounded-xl p-6 md:p-10 max-w-5xl mx-auto mt-10 flex lg:flex-row md:flex-col sm:flex-col flex-col">
+        <div className="lg:mb-0 md:mb-4 sm:mb-4 mb-4">
           <img src="images/whyalgo.webp" alt="whyalgo" className="flex p-4" />
         </div>
         <div>

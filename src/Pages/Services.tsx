@@ -14,10 +14,10 @@ function Services() {
       <ABS />
       <ServiceSection />
       <Algo />
-      <div className="px-4 md:px-10 lg:px-[14rem] py-10">
+      <div className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
         <div className="flex flex-wrap mt-8">
-          <div className="lg:w-[50%] md:w-[100%] sm:w-[100%] w-full">
-            <h2 className="text-5xl font-bold mb-5 leading-12">
+          <div className="lg:w-[50%] md:w-[100%] sm:w-[100%] w-full lg:mb-0 md:mb-5 sm:mb-5 mb-5">
+            <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-5 leading-12">
               Want to Hire Resources to Work With You?
             </h2>
             <p className="leading-8 mb-6 text-base">

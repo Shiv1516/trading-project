@@ -58,7 +58,7 @@ export default function BlogSection() {
             className="bg-[#1e1e1e] rounded-xl overflow-hidden flex flex-col md:flex-row"
           >
             {/* Image */}
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 lg:mb-0 md:mb-4 sm:mb-4 mb-4">
               <img
                 src={post.image}
                 alt={post.title}
@@ -66,7 +66,7 @@ export default function BlogSection() {
               />
             </div>
 
-            <div className="p-5 flex-1">
+            <div className="p-5 flex-1 lg:mb-0 md:mb-4 sm:mb-4 mb-4">
               <div className="flex flex-wrap gap-2 mb-2">
                 {post.tags.map((tag, idx) => (
                   <span

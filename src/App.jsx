@@ -26,6 +26,19 @@ function App() {
         <Route path="/copytrading" element={<CopyTrading />} />
       </Routes>
       <Footer />
+      <div className="fixed right-[3%] bottom-[5%] z-50">
+        <a
+          href="https://wa.me/917052211516"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="./images/whatsapp.png"
+            alt="whats-app icon"
+            className="w-[48px]"
+          />
+        </a>
+      </div>
     </div>
   );
 }

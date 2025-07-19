@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function WWI() {
   return (
     <>
-      <div className="wwi-section flex flex-wrap px-4 md:px-10 lg:px-[14rem] py-30">
-        <div className="lg:w-1/2 md:w-full sm:w-full">
+      <div className="wwi-section flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-30">
+        <div className="lg:w-1/2 md:w-full sm:w-full w-full lg:mb-0 md:mb-4 sm:mb-4 mb-6">
           <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-5">
             <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>WHO WE ARE
           </h4>
@@ -38,32 +38,38 @@ function WWI() {
             </Link>
           </div>
         </div>
-        <div className="lg:w-[45%] md:w-full sm:w-full flex px-5 m-auto">
-          <div className="mx-4 lg:w-[48%] md:w-full sm:w-full">
-            <div className="bg-gray-800 px-8 py-10 rounded-2xl mb-6 flex flex-col">
+        <div className="lg:w-[45%] md:w-full sm:w-full w-full flex lg:flex-row md:flex-row sm:flex-col flex-col lg:px-5 md:px-2 sm:py-2 m-auto">
+          <div className="lg:px-4 md:px-0 sm:px-0 lg:w-[48%] md:w-full sm:w-full w-full">
+            <div className="bg-gray-800 px-8 py-10 rounded-2xl flex flex-col mb-6">
               <h4 className="uppercase mb-4 text-xl">Projects</h4>
-              <h2 className="text-5xl mb-4 text-orange-300 font-bold">250+</h2>
+              <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl mb-4 text-orange-300 font-bold">
+                250+
+              </h2>
               <p className="text-lg mb-4">Projects delivered on time</p>
             </div>
-            <div className="bg-gray-800 flex flex-col px-8 py-10 rounded-2xl">
+            <div className="bg-gray-800 flex flex-col px-8 py-10 rounded-2xl lg:mb-0 md:mb-4 sm:mb-4 mb-4">
               <h4 className="uppercase mb-4 text-xl">YEARS</h4>
-              <h2 className="text-5xl mb-4 text-orange-300 font-bold">14+</h2>
+              <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl mb-4 text-orange-300 font-bold">
+                14+
+              </h2>
               <p className="text-lg mb-4">
                 Years of experience in the financial industry.
               </p>
             </div>
           </div>
-          <div className="mt-6 mx-4 lg:w-[48%] md:w-[48%] sm:w-full">
+          <div className="mt-6 lg:mx-4 md:mx-0 sm:mx-0 mx-0 lg:w-[48%] md:w-[48%] sm:w-full w-full lg:mb-0 md:mb-4 sm:mb-4 mb-4">
             <div className="bg-gray-800 flex flex-col px-8 py-10 rounded-2xl mb-6">
               <h4 className="uppercase mb-4 text-xl">CLIENTS</h4>
-              <h2 className="text-5xl mb-4 text-orange-300 font-bold">
+              <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl mb-4 text-orange-300 font-bold">
                 5,000+
               </h2>
               <p className="text-lg">Happy Customer We have across India.</p>
             </div>
-            <div className="bg-gray-800 flex flex-col px-8 py-10 rounded-2xl">
+            <div className="bg-gray-800 flex flex-col px-8 py-10 rounded-2xl lg:mb-0 md:mb-4 sm:mb-4 mb-4">
               <h4 className="uppercase mb-4 text-xl">COLLABORATION</h4>
-              <h2 className="text-5xl mb-4 text-orange-300 font-bold">13+</h2>
+              <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl mb-4 text-orange-300 font-bold">
+                13+
+              </h2>
               <p className="text-lg">
                 Organizations trading backend system is powred by algodelta.
               </p>
@@ -71,7 +77,6 @@ function WWI() {
           </div>
         </div>
       </div>
-     
     </>
   );
 }

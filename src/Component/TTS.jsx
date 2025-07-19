@@ -1,9 +1,9 @@
 function TTS() {
   return (
     <div className="bg-blue-600">
-      <div className="flex flex-wrap px-4 md:px-10 lg:px-[14rem] py-16">
+      <div className="flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-16 ">
         <div className="lg:w-1/2 md:w-full sm:w-full w-full">
-          <h5 className="text-3xl md:text-4xl lg:text-5xl font-semibold max-w-3xl leading-snug">
+          <h5 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-semibold max-w-3xl leading-snug">
             Trusted Trading Software Company Since 2018
           </h5>
         </div>

@@ -3,10 +3,10 @@ import { RiYoutubeFill } from "react-icons/ri";
 
 function PCF() {
   return (
-    <div className="pcf-section px-4 md:px-10 lg:px-[14rem] py-4">
-      <div className="flex justify-center py-8">
-        <div className="lg:w-[60%] md:w-full sm:w-full text-center">
-          <h2 className="text-5xl font-bold mb-4">
+    <div className="pcf-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4">
+      <div className="flex justify-center lg:py-8 md:py-4 sm:py-3">
+        <div className="lg:w-[60%] md:w-full sm:w-full text-center lg:mb-0 md:mb-5 sm:mb-6 mb-6">
+          <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-4">
             Platform Compliance & Features
           </h2>
           <p className="leading-6 text-gray-300">
@@ -18,7 +18,7 @@ function PCF() {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-center lg:mb-0 md:mb-5 sm:mb-5 mb-5">
         <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pr-6 md:pr-0 sm:pr-0">
           <h3 className="text-3xl font-bold mb-4">Copy Trading</h3>
           <p className="text-base leading-8 text-gray-300">
@@ -41,9 +41,13 @@ function PCF() {
           <img src="images/pcf.gif" alt="pcf-img" className="flex p-4" />
         </div>
       </div>
-      <div className="flex flex-wrap items-center">
-        <div className="lg:w-[40%] md:w-[100%] sm:w-[100%] w-full">
-          <img src="images/pcf.gif" alt="pcf-img" className="flex p-4" />
+      <div className="flex flex-wrap items-center lg:mb-0 md:mb-5 sm:mb-5 mb-5">
+        <div className="lg:w-[40%] md:w-[100%] sm:w-[100%] w-full lg:mb-0 md:mb-4 sm:mb-4 mb-4">
+          <img
+            src="images/pcf.gif"
+            alt="pcf-img"
+            className="flex lg:p-4 md:p-2 sm:p-4"
+          />
         </div>
         <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pl-6 md:pl-0 sm:pl-0">
           <h3 className="text-3xl font-bold mb-4">Advanced Order Manager</h3>
@@ -64,8 +68,8 @@ function PCF() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-wrap items-center">
-        <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pr-6 md:pr-0 sm:pr-0">
+      <div className="flex flex-wrap items-center lg:mb-0 md:mb-5 sm:mb-5 mb-5">
+        <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pr-6 md:pr-0 sm:pr-0 lg:mb-0 md:mb-4 sm:mb-4 mb-4">
           <h3 className="text-3xl font-bold mb-4">
             Bridge / Api / Webhook Integration
           </h3>
@@ -88,7 +92,6 @@ function PCF() {
           <img src="images/pcf.gif" alt="pcf-img" className="flex p-4" />
         </div>
       </div>
-      
     </div>
   );
 }
