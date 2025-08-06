@@ -100,7 +100,7 @@ export default function PricingSection() {
 
   return (
     <>
-      <div className="text-center mb-10">
+      <div className="text-center mb-10 pt-10">
         {/* Tab Buttons */}
         <div className="flex justify-center gap-8 mb-2 text-lg font-semibold">
           <button
