@@ -65,7 +65,7 @@ export default function BenefitsSection() {
           <img src="images/pcf.gif" alt="pcf-icon" className="flex" />
         </div>
 
-        <div className="p-6 md:p-8 rounded-xl w-full lg:w-[400px] shadow-lg">
+        <div className="p-6 md:p-8 rounded-xl w-full lg:w-[500px] shadow-lg">
           <h4 className="text-lg text-orange-500 font-semibold mb-4">
             Get A Free Quote
           </h4>

@@ -6,7 +6,7 @@ function AboutHome() {
       <div className="breadcrum text-sm flex items-center gap-3">
         <Link href="/index">Home</Link>
         <span>&#8226;</span>
-        <span className="text-orange-300 text-sm">Contact</span>
+        <span className="text-orange-300 text-sm">About Us</span>
       </div>
 
       <div className="flex flex-wrap mt-4">

@@ -7,7 +7,7 @@ function ServicseAbout() {
       <div className="breadcrum text-sm flex items-center gap-3 mb-4">
         <Link href="/index">Home</Link>
         <span>&#8226;</span>
-        <span className="text-orange-300 text-sm">Contact</span>
+        <span className="text-orange-300 text-sm">Service</span>
       </div>
       <div className="flex flex-wrap mt-8">
         <div className="lg:w-[50%] md:w-[100%] sm:w-[100%] w-full lg:mb-0 md:mb-5 sm:mb-5 mb-5">

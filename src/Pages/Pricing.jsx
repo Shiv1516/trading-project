@@ -8,7 +8,7 @@ function Pricing() {
         <div className="text-sm text-gray-400 mb-4">
           <span className="text-white">Home</span>{" "}
           <span className="mx-2">•</span>{" "}
-          <span className="text-orange-500">Our Pricing</span>
+          <span className="text-orange-500">Pricing</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-6">

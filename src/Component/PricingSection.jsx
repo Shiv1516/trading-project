@@ -100,7 +100,7 @@ export default function PricingSection() {
 
   return (
     <>
-      <div className="text-center mb-10 pt-10">
+      <div className="text-center mb-10 pt-4">
         {/* Tab Buttons */}
         <div className="flex justify-center gap-8 mb-2 text-lg font-semibold">
           <button
@@ -125,7 +125,7 @@ export default function PricingSection() {
           </button>
         </div>
 
-        <p className="text-orange-500 mt-2 uppercase text-sm tracking-wide">
+        <p className="text-orange-500 pt-4 uppercase text-sm tracking-wide">
           {activeTab === "copyTrading"
             ? "Copy Trading Pricing Plan"
             : "Bridge Pricing Plan"}

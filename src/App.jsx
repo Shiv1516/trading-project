@@ -10,6 +10,8 @@ import Pricing from "./Pages/Pricing";
 import CopyTrading from "./Pages/CopyTrading";
 import Footer from "./Component/Footer";
 import "./index.css";
+import Login from "./Pages/Login";
+import SignupForm from "./Pages/SignupForm";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/copytrading" element={<CopyTrading />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signin" element={<SignupForm />} />
       </Routes>
       <Footer />
       <div className="fixed right-[3%] bottom-[5%] z-50">

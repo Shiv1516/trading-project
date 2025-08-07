@@ -9,7 +9,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#000000a8] text-white shadow-md sticky top-0 left-0 w-full z-50">
+    <header className="bg-[#1d1c1c70] text-white shadow-md sticky top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center px-4 md:px-10 lg:px-[14rem] py-4">
         <Link to="/index" className="text-2xl font-bold">
           <img src="/images/logo.png" alt="logo" className="w-40 md:w-48" />
@@ -55,7 +55,7 @@ function Header() {
           </Link>
           <Link
             className="flex items-center uppercase bg-orange-600 px-5 py-3 rounded-full text-lg font-medium"
-            to="/"
+            to="/login"
           >
             Login
             <FaArrowTrendUp className="ml-2" />
