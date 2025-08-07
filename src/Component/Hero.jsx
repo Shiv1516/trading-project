@@ -51,7 +51,7 @@ const Hero = () => {
           </p>
           <Link
             className="flex items-center uppercase bg-orange-600 px-6 py-3 text-xl rounded-full font-medium"
-            to="/"
+            to="/login"
           >
             Login
             <FaArrowTrendUp className="ml-2" />
