@@ -100,7 +100,7 @@ export default function BlogSection() {
               placeholder="Search..."
               className="w-full px-4 py-2 bg-black border border-gray-700 rounded-l-md text-white focus:outline-none"
             />
-            <button className="bg-orange-500 hover:bg-orange-600 px-4 rounded-r-md text-white font-semibold">
+            <button className="bg-orange-500 hover:bg-[#1A1A1A] px-4 rounded-r-md text-white font-semibold">
               Search
             </button>
           </div>

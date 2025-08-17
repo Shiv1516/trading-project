@@ -15,7 +15,7 @@ import SignupForm from "./Pages/SignupForm";
 
 function App() {
   return (
-    <div className="bg-[#111111] text-white">
+    <div className="bg-[#161616] text-white">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -104,7 +104,7 @@ export default function BenefitsSection() {
             </div>
             <button
               type="submit"
-              className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-full font-semibold transition-all"
+              className="w-full bg-orange-500 hover:bg-[#1A1A1A] text-white py-3 rounded-full font-semibold transition-all"
             >
               Submit
             </button>

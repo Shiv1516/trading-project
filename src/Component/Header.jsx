@@ -10,9 +10,9 @@ function Header() {
 
   return (
     <header className="bg-[#1d1c1c70] text-white shadow-md sticky top-0 left-0 w-full z-50">
-      <div className="flex justify-between items-center px-4 md:px-10 lg:px-[14rem] py-4">
+      <div className="flex justify-between items-center px-4 md:px-10 lg:px-[14rem] py-3">
         <Link to="/index" className="text-2xl font-bold">
-          <img src="/images/logo.png" alt="logo" className="w-40 md:w-48" />
+          <img src="/images/logo.png" alt="logo" className="w-[70px]" />
         </Link>
 
         <button
