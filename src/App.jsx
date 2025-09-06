@@ -12,11 +12,13 @@ import Footer from "./Component/Footer";
 import "./index.css";
 import Login from "./Pages/Login";
 import SignupForm from "./Pages/SignupForm";
+import WhatsApp from "./Component/Whatsapp";
 
 function App() {
   return (
     <div className="bg-[#161616] text-white">
       <Header />
+      <WhatsApp />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/index" element={<Home />} />
@@ -30,19 +32,6 @@ function App() {
         <Route path="/signin" element={<SignupForm />} />
       </Routes>
       <Footer />
-      <div className="fixed right-[3%] bottom-[5%] z-50">
-        <a
-          href="https://wa.me/917052211516"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="./images/whatsapp.png"
-            alt="whats-app icon"
-            className="w-[48px]"
-          />
-        </a>
-      </div>
     </div>
   );
 }

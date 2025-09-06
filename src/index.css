@@ -46,10 +46,38 @@
   background-size: cover;
 }
 
-
+/* whatsapp css */
+.whatsapp-btn {
+  transform: all 0.5s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.whatsapp-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  animation: pulseCustom 1500ms ease-out infinite;
+}
+@keyframes pulseCustom {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
 
 @media only screen and (max-width: 768px) {
-.wwi-bg::before {
-  content: none;
-}
+  .wwi-bg::before {
+    content: none;
+  }
 }
