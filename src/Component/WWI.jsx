@@ -56,7 +56,7 @@ function WWI() {
         <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-5">
           <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>We Work In
         </h4>
-        <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-semibold max-w-3xl leading-snug">
+        <h2 className="lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-semibold max-w-3xl leading-snug">
           Types of Algo Trading Strategies We Develop
         </h2>
 

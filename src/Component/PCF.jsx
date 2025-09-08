@@ -5,37 +5,39 @@ function PCF() {
   return (
     <div className="pcf-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4">
       <div className="flex justify-center lg:py-8 md:py-4 sm:py-3">
-        <div className="lg:w-[60%] md:w-full sm:w-full text-center lg:mb-0 md:mb-5 sm:mb-6 mb-6">
-          <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-4">
-            Platform Compliance & Features
+        <div className="lg:w-[90%] md:w-full sm:w-full text-center lg:mb-0 md:mb-5 sm:mb-6 mb-6">
+          <h2 className="lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold mb-5">
+            System Compliance & Research-Backed Features
           </h2>
           <p className="leading-6 text-gray-300">
-            Unlike traditional platforms that lock users into a single
-            brokerage, our system is designed to be broker-independent. Whether
-            you trade with any INDIAN brokers, our platform integrates
-            seamlessly with multiple brokers, giving traders the flexibility to
-            use their preferred service providers.
+            Unlike traditional systems tied to fixed infrastructures, Digi Core
+            Wealth Builder V12 offers complete operational flexibility. Our
+            research-aligned framework is designed to support diverse trading
+            environments while ensuring full user control, data security, and
+            regulatory compatibility — giving traders the freedom to work
+            seamlessly across their preferred setups.
           </p>
         </div>
       </div>
       <div className="flex flex-wrap items-center lg:mb-0 md:mb-5 sm:mb-5 mb-5">
         <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pr-6 md:pr-0 sm:pr-0">
-          <h3 className="text-3xl font-bold mb-4">Copy Trading</h3>
+          <h3 className="text-3xl font-bold mb-4">
+            Precision Execution with Algorithmic Tools
+          </h3>
           <p className="text-base leading-8 text-gray-300">
-            Experience the power of our automated copy trading system that
-            replicates trades with precision across multiple Demat accounts.
-            Enjoy both multiplier and fixed lot modes for scalable and
-            consistent trade execution. Perfect for traders seeking efficiency
-            and high-speed performance. Our copy trading solution is designed
-            for all skill levels and optimized for seamless integration with
-            your trading strategy. Benefit from dynamic trade replication and
-            real-time execution. Enhance your portfolio with reliable, automated
-            trading features.
+            Digi Core Wealth Builder V12 is powered by proprietary algorithmic
+            tools developed through deep technical, mathematical, and
+            psychological research. These tools help traders execute
+            well-structured strategies with real-time precision and complete
+            human control. Every decision is backed by data — not bots —
+            ensuring clarity, discipline, and logic in every move. Whether
+            you're refining entry levels or managing execution speed, V12
+            supports your strategy with unmatched consistency and focus.
           </p>
-          <Link to="/" className="text-orange-500 text-base flex items-center">
+          {/* <Link to="/" className="text-orange-500 text-base flex items-center">
             Watch Video
             <RiYoutubeFill className="ml-2" />
-          </Link>
+          </Link> */}
         </div>
         <div className="lg:w-[40%] md:w-[100%] sm:w-[100%] w-full">
           <img src="images/pcf.gif" alt="pcf-img" className="flex p-4" />
@@ -50,43 +52,43 @@ function PCF() {
           />
         </div>
         <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pl-6 md:pl-0 sm:pl-0">
-          <h3 className="text-3xl font-bold mb-4">Advanced Order Manager</h3>
+          <h3 className="text-3xl font-bold mb-4">Smart Order Logic Engine</h3>
           <p className="text-base leading-8 text-gray-300">
-            Gain full control of your trading strategy with our advanced Order
-            Manager, designed for precision and automation. Set detailed
-            parameters for entry triggers, stop-losses, targets, and trailing
-            stops using real-time market data. Optimize your trades with a tool
-            that caters to diverse market conditions. Easily group multiple
-            positions under unified targets and stop-loss settings for
-            sophisticated risk management. Simplify complex strategy execution
-            and maximize profitability. Enhance your trading efficiency with our
-            state-of-the-art order management system.
+            Take full control of your strategy execution with Digi Core Wealth
+            Builder V12’s intelligent order logic system. Define your own entry
+            conditions, stop-loss levels, targets, and trailing logic — all
+            guided by real-time research and precise market behavior. Built for
+            traders who rely on discipline and structure, this tool helps
+            simplify execution, refine risk handling, and strengthen overall
+            decision-making — without relying on external automation. Trade with
+            clarity, consistency, and research-backed confidence.
           </p>
-          <Link to="/" className="text-orange-500 text-base flex items-center">
+          {/* <Link to="/" className="text-orange-500 text-base flex items-center">
             Watch Video
             <RiYoutubeFill className="ml-2" />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="flex flex-wrap items-center lg:mb-0 md:mb-5 sm:mb-5 mb-5">
         <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pr-6 md:pr-0 sm:pr-0 lg:mb-0 md:mb-4 sm:mb-4 mb-4">
           <h3 className="text-3xl font-bold mb-4">
-            Bridge / Api / Webhook Integration
+            Strategic Signal Integration Tools
           </h3>
           <p className="text-base leading-8 text-gray-300">
-            Connect effortlessly to top platforms like TradingView, MT4, MT5,
-            and AmiBroker with our cutting-edge bridge integration. Leverage
-            webhook technology for real-time signal processing and automated
-            trade execution. Stay ahead in the market with instant and accurate
-            strategy deployment. This integration streamlines your trading
-            workflow and enhances overall system responsiveness. Automate your
-            strategy execution with confidence and precision. Experience a
-            flexible, high-performance environment for all your trading needs.
+            Digi Core Wealth Builder V12 allows you to integrate real-time
+            market signals from trusted research environments such as
+            TradingView, MT4, MT5, and others — using custom logic connectors
+            for enhanced precision and timely execution. These tools are built
+            to support disciplined traders who operate on structure, not
+            automation. Process external signals with complete control, while
+            maintaining the clarity and consistency of your strategy. This
+            system enhances responsiveness and ensures that your execution
+            remains focused, research-driven, and fully in your hands.
           </p>
-          <Link to="/" className="text-orange-500 text-base flex items-center">
+          {/* <Link to="/" className="text-orange-500 text-base flex items-center">
             Watch Video
             <RiYoutubeFill className="ml-2" />
-          </Link>
+          </Link> */}
         </div>
         <div className="lg:w-[40%] md:w-[100%] sm:w-[100%] w-full">
           <img src="images/pcf.gif" alt="pcf-img" className="flex p-4" />

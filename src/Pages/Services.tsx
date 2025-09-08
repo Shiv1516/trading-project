@@ -1,5 +1,5 @@
 import ABS from "../Component/ABS";
-import Algo from "../Component/Algo";
+import Dcwb from "../Component/Dcwb";
 import ServicseAbout from "../Component/ServicseAbout";
 import { Link } from "react-router-dom";
 import { FaArrowTrendUp } from "react-icons/fa6";
@@ -13,7 +13,7 @@ function Services() {
       <BenefitsSection />
       <ABS />
       <ServiceSection />
-      <Algo />
+      <Dcwb />
       <div className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
         <div className="flex flex-wrap mt-8">
           <div className="lg:w-[50%] md:w-[100%] sm:w-[100%] w-full lg:mb-0 md:mb-5 sm:mb-5 mb-5">

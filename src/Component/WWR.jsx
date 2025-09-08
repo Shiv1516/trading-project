@@ -8,31 +8,32 @@ function WWI() {
           <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-5">
             <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>WHO WE ARE
           </h4>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold max-w-3xl leading-snug mb-4">
-            Best Trading Software Provider in India
+          <h2 className="text-3xl md:text-3xl lg:text-4xl font-semibold max-w-3xl leading-snug mb-5">
+            Best Research-Based Trading Tool in India
           </h2>
           <p className="leading-6 text-gray-300 mb-4">
-            ALGODELTA is a technology company that specializes in developing
-            algorithmic trading software for the financial market. We have a
-            team of experienced developers and traders who are dedicated to
-            creating advanced solutions that make the trading process more
-            efficient. With over 14 years of experience and a focus on
-            innovation, ALGODELTA is a trusted provider of advanced trading
-            solutions for clients, powering their trades with cutting-edge
-            technology tailored to meet evolving market demands.
+            Digi Core Wealth Builder V12 is a next-generation research tool
+            developed for serious traders in the financial markets. Created by a
+            team of experienced analysts and market practitioners, it is built
+            to deliver precision, structure, and strategic clarity — all without
+            relying on bots or automated systems. With over a decade of trading
+            experience and a deep focus on mathematical, technical, and
+            psychological research, Digi Core Wealth Builder V12 is trusted by
+            disciplined traders who value logic, control, and performance. Every
+            feature is designed to meet the evolving needs of the Indian and
+            global markets.
           </p>
           <p className="leading-6 text-gray-300 mb-6">
-            ALGODELTA has a strong focus on quality, security, and user
-            experience, and ALGODELTA have a reputation for delivering
-            customized software that meets and exceeds client expectations. Our
-            proprietary trading platform is equipped with advanced tools and
-            features for manual traders, as well as fully-automated trading
-            systems for professional traders and asset managers.
+            Digi Core Wealth Builder V12 prioritizes quality, security, and
+            results. It supports structured decision-making for traders who
+            prefer strategy over speculation. Whether you are refining your edge
+            or scaling your knowledge, this tool is designed to deliver clarity,
+            consistency, and long-term trading confidence.
           </p>
           <div className="inline-block mt-6">
             <Link
               className="flex items-center bg-blue-500 text-white px-8 py-5 rounded-full text-lg font-medium"
-              to="/"
+              to="/signin"
             >
               Don't have Account? Open here
             </Link>

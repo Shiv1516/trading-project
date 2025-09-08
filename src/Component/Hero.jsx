@@ -38,16 +38,16 @@ const Hero = () => {
   return (
     <div className="hero-slider">
       <div className="hero flex">
-        <div className="lg:w-[40%] md:w-full sm:w-full w-full flex justify-center flex-col items-center m-auto">
-          <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-semibold mb-4 leading-14 text-center">
-            India's Best Copy Trading Software
+        <div className="lg:w-[60%] md:w-full sm:w-full w-full flex justify-center flex-col items-center m-auto">
+          <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-4 leading-14 text-center">
+            India’s Most Trusted Trading Intelligence System
           </h2>
           <p className="leading-8 text-xl mb-4 text-center">
-            Place an order in your master account, and it will be copied to all
-            child accounts instantly. No matter where you place the order,
-            broker's website, mobile app, or any algo trading software. That's
-            why AlgoDelta is India’s top #1 choice for copy trading, built for
-            Indian traders with bank-level data security.
+            Unlock smarter trades with a powerful blend of technical,
+            mathematical, and psychological market research. From custom tools
+            to proven strategies and dynamic chart insights — Digi Core Wealth
+            Builder V12 delivers precision, clarity, and confidence to every
+            trade.
           </p>
           <Link
             className="flex items-center uppercase bg-orange-600 px-6 py-3 text-xl rounded-full font-medium"
@@ -59,7 +59,7 @@ const Hero = () => {
         </div>
       </div>
       <h4 className="text-lg font-medium text-center pb-6">
-        All Brokers Supported
+        Now includes complete offline and online training.
         <div className="mt-6 px-4 lg:w-[60%] md:w-full sm:w-full w-full m-auto">
           <Slider {...settings}>
             {images.map((src, index) => (

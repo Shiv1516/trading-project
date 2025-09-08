@@ -1,5 +1,5 @@
 import AboutHome from "../Component/AboutHome";
-import Algo from "../Component/Algo";
+import Dcwb from "../Component/Dcwb";
 import Connect from "../Component/Connect";
 import Team from "../Component/Team";
 
@@ -64,7 +64,7 @@ function AboutUs() {
           <img src="images/empowering_traders.svg" className="w-full" />
         </div>
       </div>
-      <Algo />
+      <Dcwb />
       <Connect />
     </div>
   );
