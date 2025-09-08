@@ -8,6 +8,7 @@ import Blogs from "./Pages/Blogs";
 import Products from "./Pages/Products";
 import Pricing from "./Pages/Pricing";
 import CopyTrading from "./Pages/CopyTrading";
+import NotFound from "./Pages/NotFound";
 import Footer from "./Component/Footer";
 import "./index.css";
 import Login from "./Pages/Login";
@@ -30,6 +31,7 @@ function App() {
         <Route path="/copytrading" element={<CopyTrading />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signin" element={<SignupForm />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
