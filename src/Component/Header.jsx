@@ -4,13 +4,15 @@ import { IoCall } from "react-icons/io5";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
+import LoginPopup from "../Pages/Login";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
 
   return (
     <header className="bg-[#1d1c1c70] text-white shadow-md sticky top-0 left-0 w-full z-50">
-      <div className="flex justify-between items-center px-4 md:px-10 lg:px-[14rem] py-3">
+      <div className="flex justify-between items-center px-4 md:px-10 lg:px-[9rem] py-3">
         <Link to="/index" className="text-2xl font-bold">
           <img src="/images/logo.png" alt="logo" className="w-[70px]" />
         </Link>
@@ -55,13 +57,15 @@ function Header() {
           </Link>
           <Link
             className="flex items-center uppercase bg-orange-600 px-5 py-3 rounded-full text-lg font-medium"
-            to="/login"
+            // to="/login"
+            onClick={() => setIsLoginOpen(true)}
           >
             Login
             <FaArrowTrendUp className="ml-2" />
           </Link>
         </div>
       </div>
+      <LoginPopup isOpen={isLoginOpen} onClose={() => setIsLoginOpen(false)} />
 
       {menuOpen && (
         <ul className="lg:hidden flex flex-col gap-4 bg-black px-6 py-4 text-base font-medium">
@@ -95,7 +99,7 @@ function Header() {
             </Link>
             <Link
               className="flex items-center uppercase bg-orange-600 px-4 py-2 rounded-full text-base font-medium"
-              to="/"
+              onClick={() => setIsLoginOpen(true)}
             >
               Login
               <FaArrowTrendUp className="ml-2" />

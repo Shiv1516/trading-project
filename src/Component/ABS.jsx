@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ABS() {
   return (
-    <div className="abs-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10 lg:w-[90%] md:w-full sm:w-full w-full m-auto text-center relative z-10">
+    <div className="abs-section lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10 lg:w-[90%] md:w-full sm:w-full w-full m-auto text-center relative z-10">
       <span className="w-[60vh] h-[30vh] bg-blue-600 lg:flex md:hidden sm:hidden hidden rounded-b-full absolute z-[-1] m-auto translate-x-[60%] translate-y-0"></span>
       <h2 className="lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold mb-4 pt-15">
         All Brokers Supported

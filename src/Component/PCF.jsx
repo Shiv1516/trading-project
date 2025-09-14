@@ -3,7 +3,7 @@ import { RiYoutubeFill } from "react-icons/ri";
 
 function PCF() {
   return (
-    <div className="pcf-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4">
+    <div className="pcf-section lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4">
       <div className="flex justify-center lg:py-8 md:py-4 sm:py-3">
         <div className="lg:w-[90%] md:w-full sm:w-full text-center lg:mb-0 md:mb-5 sm:mb-6 mb-6">
           <h2 className="lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold mb-5">

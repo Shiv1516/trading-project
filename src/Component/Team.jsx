@@ -23,7 +23,7 @@ function Team() {
   ];
 
   return (
-    <div className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-8">
+    <div className="lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-8">
       <h2 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-bold mb-5 leading-14 text-center">
         Algo Delta's Most Valuable Assets
       </h2>

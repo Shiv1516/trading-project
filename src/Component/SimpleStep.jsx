@@ -1,6 +1,6 @@
 function SimpleStep() {
   return (
-    <div className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
+    <div className="lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
       <h4 className="text-xl mb-4 font-semibold text-center">
         Start in Just 4 Simple Steps
       </h4>

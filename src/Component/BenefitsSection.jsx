@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BenefitsSection() {
   return (
-    <section className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
+    <section className="lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="flex-1 lg:mb-0 md:mb-4 sm:mb-4 mb-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">

@@ -7,7 +7,7 @@ function AboutUs() {
   return (
     <div>
       <AboutHome />
-      <div className="flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6">
+      <div className="flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6">
         <div className="lg:w-1/2 md:w-full sm:w-full w-full pr-8">
           <h4 className="text-3xl font-bold mb-2 leading-8">
             Empowering traders and businesses with innovative and reliable
@@ -36,7 +36,7 @@ function AboutUs() {
         </div>
       </div>
       <Team />
-      <div className="flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6">
+      <div className="flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6">
         <div className="lg:w-1/2 md:w-full sm:w-full w-full">
           <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-6">
             <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>Mission

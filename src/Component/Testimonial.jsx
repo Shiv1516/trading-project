@@ -85,7 +85,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="testmonial py-20  lg:px-[14rem] md:px-[1rem] px-[1rem] sm:px-[1rem]">
+    <div className="testmonial py-20  lg:px-[9rem] md:px-[1rem] px-[1rem] sm:px-[1rem]">
       <h4 className="text-orange-500 tracking-wide mb-5 text-center">
         Review/Feedback
       </h4>

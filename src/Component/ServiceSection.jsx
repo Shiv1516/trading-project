@@ -53,7 +53,7 @@ export default function ServiceSection() {
   const activeService = services.find((s) => s.key === selected);
 
   return (
-    <section className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
+    <section className="lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
       <p className="text-orange-500 mb-2 text-sm">— We Work In</p>
       <h2 className="text-4xl font-bold mb-10">Our Other Services</h2>
       <div className="flex flex-col md:flex-row gap-10">

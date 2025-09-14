@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 function WhyDcwb() {
   return (
-    <div className="whyalgo-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 mt-10">
+    <div className="whyalgo-section lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 mt-10">
       <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-8 justify-center">
         <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>Important Notice
         !!

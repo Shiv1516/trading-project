@@ -14416,7 +14416,7 @@ function $v() {
     children: [
       u.jsxs("div", {
         className:
-          "flex justify-between items-center px-4 md:px-10 lg:px-[14rem] py-4",
+          "flex justify-between items-center px-4 md:px-10 lg:px-[9rem] py-4",
         children: [
           u.jsx(me, {
             to: "/index",
@@ -14542,7 +14542,7 @@ function $v() {
 function Dr() {
   return u.jsxs("div", {
     className:
-      "abs-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10 lg:w-[70%] md:w-full sm:w-full w-full m-auto text-center relative z-10",
+      "abs-section lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10 lg:w-[70%] md:w-full sm:w-full w-full m-auto text-center relative z-10",
     children: [
       u.jsx("span", {
         className:
@@ -14621,7 +14621,7 @@ function Dr() {
 function To() {
   return u.jsxs("div", {
     className:
-      "wwi-section flex flex-wrap items-center lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+      "wwi-section flex flex-wrap items-center lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: [
       u.jsx("div", {
         className:
@@ -14736,7 +14736,7 @@ function To() {
 }
 function Lr() {
   return u.jsx("div", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4",
     children: u.jsxs("div", {
       className: "flex flex-wrap bg-blue-600 p-10  rounded-4xl",
       children: [
@@ -18760,7 +18760,7 @@ function vo(r) {
 function Dy() {
   return u.jsxs("div", {
     className:
-      "pcf-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4",
+      "pcf-section lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4",
     children: [
       u.jsx("div", {
         className: "flex justify-center lg:py-8 md:py-4 sm:py-3",
@@ -19013,7 +19013,7 @@ const qy = [
     };
     return u.jsxs("div", {
       className:
-        "testmonial py-20  lg:px-[14rem] md:px-[1rem] px-[1rem] sm:px-[1rem]",
+        "testmonial py-20  lg:px-[9rem] md:px-[1rem] px-[1rem] sm:px-[1rem]",
       children: [
         u.jsx("h4", {
           className: "text-orange-500 tracking-wide mb-5 text-center",
@@ -19065,7 +19065,7 @@ function Gy() {
     className: "bg-blue-600",
     children: u.jsxs("div", {
       className:
-        "flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-16 ",
+        "flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-16 ",
       children: [
         u.jsx("div", {
           className: "lg:w-1/2 md:w-full sm:w-full w-full",
@@ -19352,7 +19352,7 @@ const Vy = Mr(Qy);
 function Zy() {
   return u.jsxs("div", {
     className:
-      "whyalgo-section lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 mt-10",
+      "whyalgo-section lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 mt-10",
     children: [
       u.jsxs("h4", {
         className:
@@ -19530,7 +19530,7 @@ function Ky() {
     className: "wwi-bg py-30",
     children: u.jsxs("div", {
       className:
-        "wwi-section relative z-10 lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 lmt-20",
+        "wwi-section relative z-10 lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 lmt-20",
       children: [
         u.jsxs("h4", {
           className:
@@ -19580,7 +19580,7 @@ function Py() {
   return u.jsx(u.Fragment, {
     children: u.jsxs("div", {
       className:
-        "wwi-section flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-30",
+        "wwi-section flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-30",
       children: [
         u.jsxs("div", {
           className:
@@ -19738,7 +19738,7 @@ function nh() {
 }
 function Wy() {
   return u.jsxs("div", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: [
       u.jsxs("div", {
         className: "breadcrum text-sm flex items-center gap-3",
@@ -19797,7 +19797,7 @@ function Jy() {
     { name: "Yash Verma", image: "images/persion-01.jpg" },
   ];
   return u.jsxs("div", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-8",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-8",
     children: [
       u.jsx("h2", {
         className:
@@ -19838,7 +19838,7 @@ function $y() {
       u.jsx(Wy, {}),
       u.jsxs("div", {
         className:
-          "flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6",
+          "flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6",
         children: [
           u.jsxs("div", {
             className: "lg:w-1/2 md:w-full sm:w-full w-full pr-8",
@@ -19887,7 +19887,7 @@ function $y() {
       u.jsx(Jy, {}),
       u.jsxs("div", {
         className:
-          "flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6",
+          "flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-6",
         children: [
           u.jsxs("div", {
             className: "lg:w-1/2 md:w-full sm:w-full w-full",
@@ -19940,7 +19940,7 @@ function $y() {
 }
 function Fy() {
   return u.jsxs("div", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: [
       u.jsxs("div", {
         className: "breadcrum text-sm flex items-center gap-3 mb-4",
@@ -20041,7 +20041,7 @@ function Iy() {
   const [r, o] = I.useState("backTesting"),
     m = ih.find((c) => c.key === r);
   return u.jsxs("section", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: [
       u.jsx("p", {
         className: "text-orange-500 mb-2 text-sm",
@@ -20115,7 +20115,7 @@ function Iy() {
 }
 function e1() {
   return u.jsx("section", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: u.jsxs("div", {
       className: "flex flex-col lg:flex-row gap-10",
       children: [
@@ -20293,7 +20293,7 @@ function t1() {
       u.jsx(Iy, {}),
       u.jsx(To, {}),
       u.jsx("div", {
-        className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+        className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
         children: u.jsxs("div", {
           className: "flex flex-wrap mt-8",
           children: [
@@ -20523,7 +20523,7 @@ function i1() {
 }
 function r1() {
   return u.jsx("div", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: u.jsx(i1, {}),
   });
 }
@@ -20637,7 +20637,7 @@ function zh() {
 }
 function Ch() {
   return u.jsxs("div", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: [
       u.jsx("h4", {
         className: "text-xl mb-4 font-semibold text-center",
@@ -21040,7 +21040,7 @@ function f1() {
 }
 function d1() {
   return u.jsxs("div", {
-    className: "lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
+    className: "lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10",
     children: [
       u.jsx("p", { className: "mb5", children: "Pricing page" }),
       u.jsx(f1, {}),
@@ -21055,7 +21055,7 @@ function m1() {
 }
 const h1 = () =>
   u.jsxs("footer", {
-    className: "text-white px-4 md:px-10 lg:px-[14rem] py-4",
+    className: "text-white px-4 md:px-10 lg:px-[9rem] py-4",
     children: [
       u.jsxs("div", {
         className: "flex flex-col lg:flex-row gap-10 justify-between",

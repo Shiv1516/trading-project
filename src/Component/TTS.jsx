@@ -1,7 +1,7 @@
 function TTS() {
   return (
     <div className="bg-blue-600">
-      <div className="flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-16 ">
+      <div className="flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-16 ">
         <div className="lg:w-1/2 md:w-full sm:w-full w-full">
           <h5 className="lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold max-w-3xl leading-snug">
             Digi Core Wealth Builder V12 — Trusted Research-Based Trading System

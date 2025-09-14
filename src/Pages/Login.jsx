@@ -1,8 +1,10 @@
-// src/components/LoginForm.jsx
 import { useState } from "react";
+import SignupPopup from "./SignupForm";
+import { Link } from "react-router-dom";
 
-const Login = () => {
+const LoginPopup = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({ email: "", password: "" });
+  const [isSignupOpen, setIsSignupOpen] = useState(false);
 
   const handleChange = (e) => {
     setFormData((prev) => ({
@@ -14,12 +16,21 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Login Data:", formData);
-    // Add your login logic here
+    onClose();
   };
 
+  if (!isOpen) return null;
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
-      <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md text-black">
+    <div className="fixed inset-0 flex items-center justify-center bg-[#0000009e] z-50">
+      <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md text-black relative">
+        <button
+          onClick={onClose}
+          className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-xl"
+        >
+          ✕
+        </button>
+
         <h2 className="text-3xl font-bold text-center mb-6">Login</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -57,13 +68,20 @@ const Login = () => {
         </form>
         <p className="text-sm text-center mt-4 text-gray-600">
           Don't have an account?{" "}
-          <a href="/signin" className="text-blue-500 hover:underline">
+          <Link
+            onClick={() => setIsSignupOpen(true)}
+            className="text-blue-500 hover:underline"
+          >
             Sign up
-          </a>
+          </Link>
         </p>
       </div>
+      <SignupPopup
+        isOpen={isSignupOpen}
+        onClose={() => setIsSignupOpen(false)}
+      />
     </div>
   );
 };
 
-export default Login;
+export default LoginPopup;

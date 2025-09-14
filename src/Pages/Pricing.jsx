@@ -25,7 +25,7 @@ function Pricing() {
         </p>
       </div>
 
-      <div className="lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
+      <div className="lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
         <PricingSection />
         <ContactSection />
       </div>

@@ -1,6 +1,6 @@
 function Dcwb() {
   return (
-    <div className="wwi-section flex flex-wrap items-center lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
+    <div className="wwi-section flex flex-wrap items-center lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-10">
       <div className="lg:w-1/2 md:w-full sm:w-full w-full lg:mb-0 md:mb-4 sm:mb-4 mb-4">
         <div className="lg:mr-8 md:mr-0 sm:mr-0 ">
           <img

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function WWI() {
   return (
     <>
-      <div className="wwi-section flex flex-wrap lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-30">
+      <div className="wwi-section flex flex-wrap lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-30">
         <div className="lg:w-1/2 md:w-full sm:w-full w-full lg:mb-0 md:mb-4 sm:mb-4 mb-6">
           <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-5">
             <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>WHO WE ARE

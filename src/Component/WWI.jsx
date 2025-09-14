@@ -52,7 +52,7 @@ function WWI() {
 
   return (
     <div className="wwi-bg py-30">
-      <div className="wwi-section relative z-10 lg:px-[14rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 lmt-20">
+      <div className="wwi-section relative z-10 lg:px-[9rem] md:px-[1rem] sm:px-[1rem] px-[1rem] py-4 lmt-20">
         <h4 className="flex text-orange-500 text-base items-center tracking-wide mb-5">
           <span className="w-4 h-0.5 mr-3 bg-orange-500"></span>We Work In
         </h4>
