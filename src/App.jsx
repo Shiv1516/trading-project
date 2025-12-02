@@ -17,7 +17,7 @@ import WhatsApp from "./Component/Whatsapp";
 
 function App() {
   return (
-    <div className="bg-[#161616] text-white">
+    <div className="bg-gray-100 text-gray-700">
       <Header />
       <WhatsApp />
       <Routes>

@@ -10,7 +10,7 @@ function ABS() {
       <h5 className="text-2xl font-semibold italic mb-3">
         All Brokers and Charting Platforms Are Supported by our Research Tool
       </h5>
-      <p className="text-gray-300 leading-7 text-lg mb-4">
+      <p className="text-gray-600 leading-7 text-lg mb-4">
         Digi Core Wealth Builder V12 is engineered to work smoothly with all
         leading charting systems and research-driven trading environments —
         providing complete flexibility and seamless integration. Our system is

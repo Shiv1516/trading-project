@@ -11,7 +11,7 @@ function Header() {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
 
   return (
-    <header className="bg-[#1d1c1c70] text-white shadow-md sticky top-0 left-0 w-full z-50">
+    <header className="bg-white text-gray-700 shadow-md sticky top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center px-4 md:px-10 lg:px-[9rem] py-3">
         <Link to="/index" className="text-2xl font-bold">
           <img src="/images/logo.png" alt="logo" className="w-[70px]" />
@@ -56,8 +56,7 @@ function Header() {
             <IoCall />
           </Link>
           <Link
-            className="flex items-center uppercase bg-orange-600 px-5 py-3 rounded-full text-lg font-medium"
-            // to="/login"
+            className="flex items-center uppercase bg-orange-600 text-white px-5 py-3 rounded-full text-lg font-medium"
             onClick={() => setIsLoginOpen(true)}
           >
             Login

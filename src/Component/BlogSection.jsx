@@ -55,7 +55,7 @@ export default function BlogSection() {
         {posts.map((post) => (
           <div
             key={post.id}
-            className="bg-[#1e1e1e] rounded-xl overflow-hidden flex flex-col md:flex-row"
+            className="bg-gray-100 rounded-xl border border-gray-300 overflow-hidden flex flex-col md:flex-row"
           >
             {/* Image */}
             <div className="md:w-1/3 lg:mb-0 md:mb-4 sm:mb-4 mb-4">
@@ -80,7 +80,7 @@ export default function BlogSection() {
               <h3 className="text-lg md:text-xl font-bold text-orange-400 hover:underline cursor-pointer">
                 {post.title}
               </h3>
-              <p className="text-sm text-gray-300 mt-2 line-clamp-3">
+              <p className="text-sm text-gray-600 mt-2 line-clamp-3">
                 {post.description}
               </p>
               <div className="text-xs text-gray-400 flex items-center justify-between mt-4">
@@ -93,12 +93,12 @@ export default function BlogSection() {
       </div>
 
       <aside className="space-y-8">
-        <div className="bg-[#1e1e1e] p-5 rounded-xl">
+        <div className="bg-gray-100 border border-gray-300 p-5 rounded-xl">
           <div className="flex">
             <input
               type="text"
               placeholder="Search..."
-              className="w-full px-4 py-2 bg-black border border-gray-700 rounded-l-md text-white focus:outline-none"
+              className="w-full px-4 py-2 bg-gray-100 border border-gray-200 rounded-l-md text-gray-700 focus:outline-none"
             />
             <button className="bg-orange-500 hover:bg-[#1A1A1A] px-4 rounded-r-md text-white font-semibold">
               Search
@@ -106,13 +106,13 @@ export default function BlogSection() {
           </div>
         </div>
 
-        <div className="bg-[#1e1e1e] p-5 rounded-xl">
-          <h4 className="font-semibold text-white mb-3">Recent Posts</h4>
-          <ul className="space-y-2 text-sm text-gray-300">
+        <div className="bg-gray-100 border border-gray-300 p-5 rounded-xl">
+          <h4 className="font-semibold text-gray-600 mb-3">Recent Posts</h4>
+          <ul className="space-y-2 text-sm text-gray-600">
             {recentPosts.map((post, idx) => (
               <li
                 key={idx}
-                className="border-b border-gray-700 pb-2 hover:text-orange-400 cursor-pointer"
+                className="border-b border-gray-200 pb-2 hover:text-orange-400 cursor-pointer"
               >
                 {post}
               </li>
@@ -120,9 +120,9 @@ export default function BlogSection() {
           </ul>
         </div>
 
-        <div className="bg-[#1e1e1e] p-5 rounded-xl">
-          <h4 className="font-semibold text-white mb-3">Recent Comments</h4>
-          <ul className="space-y-3 text-sm text-gray-400">
+        <div className="bg-gray-100 border border-gray-300 p-5 rounded-xl">
+          <h4 className="font-semibold text-gray-600 mb-3">Recent Comments</h4>
+          <ul className="space-y-3 text-sm text-gray-600">
             {recentComments.map((comment, idx) => (
               <li key={idx} className="hover:text-orange-400 cursor-pointer">
                 {comment}

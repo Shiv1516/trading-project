@@ -9,7 +9,7 @@ function PCF() {
           <h2 className="lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold mb-5">
             System Compliance & Research-Backed Features
           </h2>
-          <p className="leading-6 text-gray-300">
+          <p className="leading-6 text-gray-600">
             Unlike traditional systems tied to fixed infrastructures, Digi Core
             Wealth Builder V12 offers complete operational flexibility. Our
             research-aligned framework is designed to support diverse trading
@@ -24,7 +24,7 @@ function PCF() {
           <h3 className="text-3xl font-bold mb-4">
             Precision Execution with Algorithmic Tools
           </h3>
-          <p className="text-base leading-8 text-gray-300">
+          <p className="text-base leading-8 text-gray-600">
             Digi Core Wealth Builder V12 is powered by proprietary algorithmic
             tools developed through deep technical, mathematical, and
             psychological research. These tools help traders execute
@@ -53,7 +53,7 @@ function PCF() {
         </div>
         <div className="lg:w-[60%] md:w-[100%] sm:w-[100%] w-full lg:pl-6 md:pl-0 sm:pl-0">
           <h3 className="text-3xl font-bold mb-4">Smart Order Logic Engine</h3>
-          <p className="text-base leading-8 text-gray-300">
+          <p className="text-base leading-8 text-gray-600">
             Take full control of your strategy execution with Digi Core Wealth
             Builder V12’s intelligent order logic system. Define your own entry
             conditions, stop-loss levels, targets, and trailing logic — all
@@ -74,7 +74,7 @@ function PCF() {
           <h3 className="text-3xl font-bold mb-4">
             Strategic Signal Integration Tools
           </h3>
-          <p className="text-base leading-8 text-gray-300">
+          <p className="text-base leading-8 text-gray-600">
             Digi Core Wealth Builder V12 allows you to integrate real-time
             market signals from trusted research environments such as
             TradingView, MT4, MT5, and others — using custom logic connectors

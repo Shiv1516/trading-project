@@ -14559,7 +14559,7 @@ function Dr() {
           "AlgoDelta's Algo Trading Platform is compatible with various standard trading API providers and brokers.",
       }),
       u.jsx("p", {
-        className: "text-gray-300 leading-7 text-lg mb-4",
+        className: "text-gray-600 leading-7 text-lg mb-4",
         children:
           "Our compatibility with multiple brokers ensures that our clients have a wide range of options to choose from, based on their preferences and trading strategies. Whether you use a broker for low latency execution, high-frequency trading, or for a simple and cost-effective way to trade, we have you covered.We understand the importance of using a trusted and reliable broker, which is why we make sure to work with only the best providers in the industry. Our team regularly tests and evaluates the performance of our supported brokers to make sure that they are providing our clients with the best possible trading experience.",
       }),
@@ -14669,7 +14669,7 @@ function To() {
                     children: "Experienced & Skilled Resources",
                   }),
                   u.jsx("p", {
-                    className: "text-gray-300 text-base",
+                    className: "text-gray-600 text-base",
                     children:
                       "With over 14 years of experience in the financial field and a proven track record of delivering high-quality software solutions, ALGODELTA has the expertise to develop trading software that meets your need",
                   }),
@@ -14695,7 +14695,7 @@ function To() {
                     children: "Experienced & Skilled Resources",
                   }),
                   u.jsx("p", {
-                    className: "text-gray-300 text-base",
+                    className: "text-gray-600 text-base",
                     children:
                       "With over 14 years of experience in the financial field and a proven track record of delivering high-quality software solutions, ALGODELTA has the expertise to develop trading software that meets your need",
                   }),
@@ -14721,7 +14721,7 @@ function To() {
                     children: "Experienced & Skilled Resources",
                   }),
                   u.jsx("p", {
-                    className: "text-gray-300 text-base",
+                    className: "text-gray-600 text-base",
                     children:
                       "With over 14 years of experience in the financial field and a proven track record of delivering high-quality software solutions, ALGODELTA has the expertise to develop trading software that meets your need",
                   }),
@@ -18774,7 +18774,7 @@ function Dy() {
               children: "Platform Compliance & Features",
             }),
             u.jsx("p", {
-              className: "leading-6 text-gray-300",
+              className: "leading-6 text-gray-600",
               children:
                 "Unlike traditional platforms that lock users into a single brokerage, our system is designed to be broker-independent. Whether you trade with any INDIAN brokers, our platform integrates seamlessly with multiple brokers, giving traders the flexibility to use their preferred service providers.",
             }),
@@ -18793,7 +18793,7 @@ function Dy() {
                 children: "Copy Trading",
               }),
               u.jsx("p", {
-                className: "text-base leading-8 text-gray-300",
+                className: "text-base leading-8 text-gray-600",
                 children:
                   "Experience the power of our automated copy trading system that replicates trades with precision across multiple Demat accounts. Enjoy both multiplier and fixed lot modes for scalable and consistent trade execution. Perfect for traders seeking efficiency and high-speed performance. Our copy trading solution is designed for all skill levels and optimized for seamless integration with your trading strategy. Benefit from dynamic trade replication and real-time execution. Enhance your portfolio with reliable, automated trading features.",
               }),
@@ -18835,7 +18835,7 @@ function Dy() {
                 children: "Advanced Order Manager",
               }),
               u.jsx("p", {
-                className: "text-base leading-8 text-gray-300",
+                className: "text-base leading-8 text-gray-600",
                 children:
                   "Gain full control of your trading strategy with our advanced Order Manager, designed for precision and automation. Set detailed parameters for entry triggers, stop-losses, targets, and trailing stops using real-time market data. Optimize your trades with a tool that caters to diverse market conditions. Easily group multiple positions under unified targets and stop-loss settings for sophisticated risk management. Simplify complex strategy execution and maximize profitability. Enhance your trading efficiency with our state-of-the-art order management system.",
               }),
@@ -18860,7 +18860,7 @@ function Dy() {
                 children: "Bridge / Api / Webhook Integration",
               }),
               u.jsx("p", {
-                className: "text-base leading-8 text-gray-300",
+                className: "text-base leading-8 text-gray-600",
                 children:
                   "Connect effortlessly to top platforms like TradingView, MT4, MT5, and AmiBroker with our cutting-edge bridge integration. Leverage webhook technology for real-time signal processing and automated trade execution. Stay ahead in the market with instant and accurate strategy deployment. This integration streamlines your trading workflow and enhances overall system responsiveness. Automate your strategy execution with confidence and precision. Experience a flexible, high-performance environment for all your trading needs.",
               }),
@@ -19384,7 +19384,7 @@ function Zy() {
               children: "Why Algodelta",
             }),
             u.jsx("p", {
-              className: "leading-6 text-gray-300",
+              className: "leading-6 text-gray-600",
               children:
                 "Choose Algodelta for cutting-edge trading solutions that empower you with innovative tools and effortless API integration, enabling tailored automation strategies to enhance your trading experience.",
             }),
@@ -19413,7 +19413,7 @@ function Zy() {
                       children: "Cross-Broker Platform",
                     }),
                     u.jsx("p", {
-                      className: "leading-7 text-gray-300",
+                      className: "leading-7 text-gray-600",
                       children:
                         "Trade with confidence across 25+ integrated brokers. AlgoDelta’s multi-broker platform gives you real-time execution, seamless switching, and total flexibility.",
                     }),
@@ -19441,7 +19441,7 @@ function Zy() {
                       children: "Cross-Broker Platform",
                     }),
                     u.jsx("p", {
-                      className: "leading-7 text-gray-300",
+                      className: "leading-7 text-gray-600",
                       children:
                         "Stay in sync with your broker — view accurate P&L, open positions, orders, and trades in real time. Modify, cancel, convert, or square off — all with lightning-fast, one-click actions. Built for traders who can’t afford delays.",
                     }),
@@ -19469,7 +19469,7 @@ function Zy() {
                       children: "Cross-Broker Platform",
                     }),
                     u.jsx("p", {
-                      className: "leading-7 text-gray-300",
+                      className: "leading-7 text-gray-600",
                       children:
                         "Trade with confidence across 25+ integrated brokers. AlgoDelta’s multi-broker platform gives you real-time execution, seamless switching, and total flexibility.",
                     }),
@@ -19497,7 +19497,7 @@ function Zy() {
                       children: "Cross-Broker Platform",
                     }),
                     u.jsx("p", {
-                      className: "leading-7 text-gray-300",
+                      className: "leading-7 text-gray-600",
                       children:
                         "Trade with confidence across 25+ integrated brokers. AlgoDelta’s multi-broker platform gives you real-time execution, seamless switching, and total flexibility.",
                     }),
@@ -19600,12 +19600,12 @@ function Py() {
               children: "Best Trading Software Provider in India",
             }),
             u.jsx("p", {
-              className: "leading-6 text-gray-300 mb-4",
+              className: "leading-6 text-gray-600 mb-4",
               children:
                 "ALGODELTA is a technology company that specializes in developing algorithmic trading software for the financial market. We have a team of experienced developers and traders who are dedicated to creating advanced solutions that make the trading process more efficient. With over 14 years of experience and a focus on innovation, ALGODELTA is a trusted provider of advanced trading solutions for clients, powering their trades with cutting-edge technology tailored to meet evolving market demands.",
             }),
             u.jsx("p", {
-              className: "leading-6 text-gray-300 mb-6",
+              className: "leading-6 text-gray-600 mb-6",
               children:
                 "ALGODELTA has a strong focus on quality, security, and user experience, and ALGODELTA have a reputation for delivering customized software that meets and exceeds client expectations. Our proprietary trading platform is equipped with advanced tools and features for manual traders, as well as fully-automated trading systems for professional traders and asset managers.",
             }),
@@ -19764,12 +19764,12 @@ function Wy() {
                 children: "About Us",
               }),
               u.jsx("p", {
-                className: "leading-6 text-gray-300 mb-4",
+                className: "leading-6 text-gray-600 mb-4",
                 children:
                   "ALGODELTA is a trusted technology leader in delivering advanced algorithmic trading software for the financial markets. Our expert team of developers and market strategists focuses on creating intelligent trading systems that boost efficiency, improve trade execution, and enhance profitability. Known for our strong commitment to innovation, security, and seamless user experience, we offer tailored solutions designed to meet the evolving needs of modern traders. ALGODELTA continues to set high standards with performance-driven software that empowers success in competitive markets.",
               }),
               u.jsx("p", {
-                className: "leading-6 text-gray-300 mb-6",
+                className: "leading-6 text-gray-600 mb-6",
                 children:
                   "Our proprietary trading platform delivers powerful tools for manual traders and fully-automated systems for professional traders and asset managers. Designed for flexibility, the platform seamlessly integrates with a wide range of standard trading APIs and brokers, allowing you to enhance your existing infrastructure without disruption.",
               }),
@@ -20089,7 +20089,7 @@ function Iy() {
                 children: m.title,
               }),
               u.jsx("p", {
-                className: "text-gray-300 mb-6",
+                className: "text-gray-600 mb-6",
                 children: m.description,
               }),
               u.jsx("div", {
@@ -20134,17 +20134,17 @@ function e1() {
               ],
             }),
             u.jsx("p", {
-              className: "text-gray-300 mb-4",
+              className: "text-gray-600 mb-4",
               children:
                 "At ALGODELTA, we believe exceptional customer experiences are key to business success. Our team of designers and developers collaborate closely to create visually stunning, user-friendly digital solutions that not only meet client needs but consistently exceed expectations.",
             }),
             u.jsx("p", {
-              className: "text-gray-300 mb-4",
+              className: "text-gray-600 mb-4",
               children:
                 "We take a customer-centric approach to every project, beginning with a deep understanding of the target audience and their needs. From there, we craft user interfaces and designs that are both visually appealing and highly intuitive...",
             }),
             u.jsx("p", {
-              className: "text-gray-300 mb-4",
+              className: "text-gray-600 mb-4",
               children:
                 "We are passionate about crafting digital experiences that engage, inform, and inspire. Whether it’s a website, mobile app, or custom software solution, we focus on creating products that are both visually stunning and highly functional...",
             }),
@@ -20163,7 +20163,7 @@ function e1() {
                       children: "◉ Complemented User Experience",
                     }),
                     u.jsx("p", {
-                      className: "text-gray-300 text-sm",
+                      className: "text-gray-600 text-sm",
                       children:
                         "We collaborate closely with our clients to understand their users and craft designs that are both visually appealing and highly intuitive.",
                     }),
@@ -20176,7 +20176,7 @@ function e1() {
                       children: "◉ Assured Maintenance & Support",
                     }),
                     u.jsx("p", {
-                      className: "text-gray-300 text-sm",
+                      className: "text-gray-600 text-sm",
                       children:
                         "We provide continuous maintenance and support to ensure your software runs smoothly and adapts to your evolving business needs.",
                     }),
@@ -20189,7 +20189,7 @@ function e1() {
                       children: "◉ Independent Coding",
                     }),
                     u.jsx("p", {
-                      className: "text-gray-300 text-sm",
+                      className: "text-gray-600 text-sm",
                       children:
                         "All solutions are developed independently with modular, clean code — ensuring flexibility and long-term manageability.",
                     }),
@@ -20430,7 +20430,7 @@ function i1() {
                       children: r.title,
                     }),
                     u.jsx("p", {
-                      className: "text-sm text-gray-300 mt-2 line-clamp-3",
+                      className: "text-sm text-gray-600 mt-2 line-clamp-3",
                       children: r.description,
                     }),
                     u.jsxs("div", {
@@ -20479,7 +20479,7 @@ function i1() {
                 children: "Recent Posts",
               }),
               u.jsx("ul", {
-                className: "space-y-2 text-sm text-gray-300",
+                className: "space-y-2 text-sm text-gray-600",
                 children: a1.map((r, o) =>
                   u.jsx(
                     "li",
@@ -20541,7 +20541,7 @@ function zh() {
             children: "Copy Trading",
           }),
           u.jsx("p", {
-            className: "text-gray-300 text-lg md:text-xl max-w-3xl mx-auto",
+            className: "text-gray-600 text-lg md:text-xl max-w-3xl mx-auto",
             children:
               "Copy trades from Master Account to multiple Child Accounts with multiplier & fixed lot modes. Enjoy seamless, high-speed execution for all skill levels. 🚀",
           }),
@@ -20584,7 +20584,7 @@ function zh() {
                 children: "Key Features of Copy Trading",
               }),
               u.jsxs("ul", {
-                className: "space-y-4 text-gray-300 text-base",
+                className: "space-y-4 text-gray-600 text-base",
                 children: [
                   u.jsxs("li", {
                     children: [
@@ -20644,7 +20644,7 @@ function Ch() {
         children: "Start in Just 4 Simple Steps",
       }),
       u.jsx("p", {
-        className: "text-base mb-5 text-center text-gray-300",
+        className: "text-base mb-5 text-center text-gray-600",
         children:
           "Learn how to start copy trading effortlessly with these 4 simple steps and start copying trades from successful master traders!",
       }),
@@ -20667,7 +20667,7 @@ function Ch() {
                   children: "Sign up your account",
                 }),
                 u.jsx("p", {
-                  className: "text-gray-300 text-center text-sm mb-4",
+                  className: "text-gray-600 text-center text-sm mb-4",
                   children:
                     "Create an account and explore our products with a free trial.",
                 }),
@@ -20690,7 +20690,7 @@ function Ch() {
                   children: "Sign up your account",
                 }),
                 u.jsx("p", {
-                  className: "text-gray-300 text-center text-sm mb-4",
+                  className: "text-gray-600 text-center text-sm mb-4",
                   children:
                     "Create an account and explore our products with a free trial.",
                 }),
@@ -20713,7 +20713,7 @@ function Ch() {
                   children: "Sign up your account",
                 }),
                 u.jsx("p", {
-                  className: "text-gray-300 text-center text-sm mb-4",
+                  className: "text-gray-600 text-center text-sm mb-4",
                   children:
                     "Create an account and explore our products with a free trial.",
                 }),
@@ -20736,7 +20736,7 @@ function Ch() {
                   children: "Sign up your account",
                 }),
                 u.jsx("p", {
-                  className: "text-gray-300 text-center text-sm mb-4",
+                  className: "text-gray-600 text-center text-sm mb-4",
                   children:
                     "Create an account and explore our products with a free trial.",
                 }),
@@ -20786,7 +20786,7 @@ function o1() {
             children: "Request a Call Back",
           }),
           u.jsx("p", {
-            className: "text-gray-300 text-sm",
+            className: "text-gray-600 text-sm",
             children:
               "Read more about how Algodelta works and how it can help you.",
           }),
@@ -20811,7 +20811,7 @@ function o1() {
                 className: "text-left",
                 children: [
                   u.jsx("p", {
-                    className: "text-sm text-gray-300",
+                    className: "text-sm text-gray-600",
                     children: "Connect on WhatsApp",
                   }),
                   u.jsx("p", {
@@ -20834,7 +20834,7 @@ function o1() {
                 className: "text-left",
                 children: [
                   u.jsx("p", {
-                    className: "text-sm text-gray-300",
+                    className: "text-sm text-gray-600",
                     children: "Begin a Quick Discussion",
                   }),
                   u.jsx("p", {
@@ -21018,7 +21018,7 @@ function f1() {
                       children: m.features.map((h, v) =>
                         u.jsxs(
                           "li",
-                          { className: "text-gray-300", children: ["• ", h] },
+                          { className: "text-gray-600", children: ["• ", h] },
                           v
                         )
                       ),
@@ -21073,7 +21073,7 @@ const h1 = () =>
                 }),
               }),
               u.jsx("p", {
-                className: "mb-1 text-gray-300",
+                className: "mb-1 text-gray-600",
                 children: "Send Us an Email:",
               }),
               u.jsx(me, {
@@ -21082,7 +21082,7 @@ const h1 = () =>
                 children: "contact@algodelta.com",
               }),
               u.jsx("p", {
-                className: "mb-1 text-gray-300",
+                className: "mb-1 text-gray-600",
                 children: "Give Us a Call (Mon-Sat, 9 AM - 6 PM):",
               }),
               u.jsxs("div", {

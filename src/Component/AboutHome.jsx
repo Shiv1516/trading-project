@@ -14,7 +14,7 @@ function AboutHome() {
           <h3 className="lg:text-5xl md:text-2xl sm:text-2xl text-2xl font-semibold max-w-3xl leading-snug mb-4">
             About Us
           </h3>
-          <p className="leading-6 text-gray-300 mb-4">
+          <p className="leading-6 text-gray-600 mb-4">
             ALGODELTA is a trusted technology leader in delivering advanced
             algorithmic trading software for the financial markets. Our expert
             team of developers and market strategists focuses on creating
@@ -26,7 +26,7 @@ function AboutHome() {
             performance-driven software that empowers success in competitive
             markets.
           </p>
-          <p className="leading-6 text-gray-300 mb-6">
+          <p className="leading-6 text-gray-600 mb-6">
             Our proprietary trading platform delivers powerful tools for manual
             traders and fully-automated systems for professional traders and
             asset managers. Designed for flexibility, the platform seamlessly

@@ -107,7 +107,7 @@ export default function PricingSection() {
             onClick={() => setActiveTab("copyTrading")}
             className={`pb-2 border-b-2 ${
               activeTab === "copyTrading"
-                ? "border-orange-500 text-white"
+                ? "border-orange-500 text-gray-700"
                 : "border-transparent text-gray-400"
             } transition`}
           >
@@ -117,7 +117,7 @@ export default function PricingSection() {
             onClick={() => setActiveTab("bridge")}
             className={`pb-2 border-b-2 ${
               activeTab === "bridge"
-                ? "border-orange-500 text-white"
+                ? "border-orange-500 text-gray-700"
                 : "border-transparent text-gray-400"
             } transition`}
           >
@@ -136,20 +136,18 @@ export default function PricingSection() {
         {pricingData[activeTab].map((plan, index) => (
           <div
             key={index}
-            className="rounded-xl overflow-hidden shadow-lg bg-[#111] flex flex-col justify-between"
+            className="rounded-xl overflow-hidden shadow-lg bg-gray-100 flex flex-col justify-between"
           >
-            {/* Header */}
             <div className={`bg-gradient-to-r ${plan.color} p-6 text-center`}>
               <h3 className="text-xl font-bold mb-2">{plan.title}</h3>
               <p className="text-3xl font-bold">{plan.price}</p>
               <p className="text-sm text-white/80">{plan.duration}</p>
             </div>
 
-            {/* Features */}
-            <div className="p-6 bg-[#000] flex-1 flex flex-col justify-between">
+            <div className="p-6 bg-gray-100 flex-1 flex flex-col justify-between">
               <ul className="mb-6 space-y-2 text-sm">
                 {plan.features.map((feature, i) => (
-                  <li key={i} className="text-gray-300">
+                  <li key={i} className="text-gray-600">
                     • {feature}
                   </li>
                 ))}

@@ -4,7 +4,7 @@ function SimpleStep() {
       <h4 className="text-xl mb-4 font-semibold text-center">
         Start in Just 4 Simple Steps
       </h4>
-      <p className="text-base mb-5 text-center text-gray-300">
+      <p className="text-base mb-5 text-center text-gray-600">
         Learn how to start copy trading effortlessly with these 4 simple steps
         and start copying trades from successful master traders!
       </p>
@@ -20,7 +20,7 @@ function SimpleStep() {
             <h4 className="font-semibold text-center mb-2 mt-4">
               Sign up your account
             </h4>
-            <p className="text-gray-300 text-center text-sm mb-4">
+            <p className="text-gray-600 text-center text-sm mb-4">
               Create an account and explore our products with a free trial.
             </p>
           </div>
@@ -35,7 +35,7 @@ function SimpleStep() {
             <h4 className="font-semibold text-center mb-2 mt-4">
               Sign up your account
             </h4>
-            <p className="text-gray-300 text-center text-sm mb-4">
+            <p className="text-gray-600 text-center text-sm mb-4">
               Create an account and explore our products with a free trial.
             </p>
           </div>
@@ -50,7 +50,7 @@ function SimpleStep() {
             <h4 className="font-semibold text-center mb-2 mt-4">
               Sign up your account
             </h4>
-            <p className="text-gray-300 text-center text-sm mb-4">
+            <p className="text-gray-600 text-center text-sm mb-4">
               Create an account and explore our products with a free trial.
             </p>
           </div>
@@ -65,7 +65,7 @@ function SimpleStep() {
             <h4 className="font-semibold text-center mb-2 mt-4">
               Sign up your account
             </h4>
-            <p className="text-gray-300 text-center text-sm mb-4">
+            <p className="text-gray-600 text-center text-sm mb-4">
               Create an account and explore our products with a free trial.
             </p>
           </div>

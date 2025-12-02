@@ -21,7 +21,7 @@ function WhyDcwb() {
           <h2 className="lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-bold mb-5">
             Why Digi Core Wealth Builder
           </h2>
-          <p className="leading-6 text-gray-300">
+          <p className="leading-6 text-gray-600">
             Digi Core Wealth Builder V12 is designed for serious traders who
             demand precision, clarity, and full control over their decisions.
             Powered by advanced research tools and grounded in deep technical,
@@ -44,7 +44,7 @@ function WhyDcwb() {
               <h4 className="text-xl font-bold mb-4">
                 Full Control in Your Hands
               </h4>
-              <p className="leading-7 text-gray-300">
+              <p className="leading-7 text-gray-600">
                 Take command of every trade decision with complete clarity and
                 confidence. Digi Core Wealth Builder V12 empowers you to operate
                 independently — backed by logic, discipline, and research-driven
@@ -66,7 +66,7 @@ function WhyDcwb() {
               <h4 className="text-xl font-bold mb-4">
                 Real-Time Strategic Visibility
               </h4>
-              <p className="leading-7 text-gray-300">
+              <p className="leading-7 text-gray-600">
                 Access live, actionable views of market movement, levels, and
                 strategy zones — precisely when you need them. Stay one step
                 ahead with a system that updates in real-time and reflects your
@@ -86,7 +86,7 @@ function WhyDcwb() {
               <h4 className="text-xl font-bold mb-4">
                 Continuously Evolving Research Tools
               </h4>
-              <p className="leading-7 text-gray-300">
+              <p className="leading-7 text-gray-600">
                 Our tools don’t just react to the market — they grow with it.
                 Built on technical, mathematical, and psychological research,
                 Digi Core Wealth Builder V12 adapts with changing trends and
@@ -106,7 +106,7 @@ function WhyDcwb() {
               <h4 className="text-xl font-bold mb-4">
                 Secured, Strategy-Focused Environment
               </h4>
-              <p className="leading-7 text-gray-300">
+              <p className="leading-7 text-gray-600">
                 Your data, logic, and research remain 100% confidential. With
                 multi-layer protection and zero reliance on external systems,
                 you trade in a secure space designed purely for high-performance

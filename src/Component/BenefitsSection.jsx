@@ -9,20 +9,20 @@ export default function BenefitsSection() {
             Know Some Value & Benefits of Choosing{" "}
             <span className="text-orange-500">ALGODELTA!</span>
           </h2>
-          <p className="text-gray-300 mb-4">
+          <p className="text-gray-600 mb-4">
             At ALGODELTA, we believe exceptional customer experiences are key to
             business success. Our team of designers and developers collaborate
             closely to create visually stunning, user-friendly digital solutions
             that not only meet client needs but consistently exceed
             expectations.
           </p>
-          <p className="text-gray-300 mb-4">
+          <p className="text-gray-600 mb-4">
             We take a customer-centric approach to every project, beginning with
             a deep understanding of the target audience and their needs. From
             there, we craft user interfaces and designs that are both visually
             appealing and highly intuitive...
           </p>
-          <p className="text-gray-300 mb-4">
+          <p className="text-gray-600 mb-4">
             We are passionate about crafting digital experiences that engage,
             inform, and inspire. Whether it’s a website, mobile app, or custom
             software solution, we focus on creating products that are both
@@ -38,7 +38,7 @@ export default function BenefitsSection() {
               <h4 className="font-semibold mb-2">
                 ◉ Complemented User Experience
               </h4>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-600 text-sm">
                 We collaborate closely with our clients to understand their
                 users and craft designs that are both visually appealing and
                 highly intuitive.
@@ -48,7 +48,7 @@ export default function BenefitsSection() {
               <h4 className="font-semibold mb-2">
                 ◉ Assured Maintenance & Support
               </h4>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-600 text-sm">
                 We provide continuous maintenance and support to ensure your
                 software runs smoothly and adapts to your evolving business
                 needs.
@@ -56,7 +56,7 @@ export default function BenefitsSection() {
             </div>
             <div>
               <h4 className="font-semibold mb-2">◉ Independent Coding</h4>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-600 text-sm">
                 All solutions are developed independently with modular, clean
                 code — ensuring flexibility and long-term manageability.
               </p>

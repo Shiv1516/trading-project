@@ -80,7 +80,7 @@ export default function ServiceSection() {
         {/* Right Content */}
         <div className="w-full md:w-2/3">
           <h3 className="text-2xl font-semibold mb-4">{activeService.title}</h3>
-          <p className="text-gray-300 mb-6">{activeService.description}</p>
+          <p className="text-gray-600 mb-6">{activeService.description}</p>
           <div className="flex flex-wrap gap-3">
             {activeService.tags.map((tag, index) => (
               <span

@@ -31,7 +31,7 @@ function Dcwb() {
             <h4 className="text-xl font-medium mb-2">
               Experienced & Insight-Driven Team
             </h4>
-            <p className="text-gray-300 text-base">
+            <p className="text-gray-600 text-base">
               With over 14 years of financial market expertise, our team brings
               deep knowledge in technical analysis, strategic modeling, and
               research-backed trading logic — all embedded into the Digi Core
@@ -51,7 +51,7 @@ function Dcwb() {
             <h4 className="text-xl font-medium mb-2">
               Results-Focused & Time-Tested
             </h4>
-            <p className="text-gray-300 text-base">
+            <p className="text-gray-600 text-base">
               We value precision and timely execution. V12 is crafted to serve
               traders who seek consistent performance through structured
               decision-making — not shortcuts or speculation.
@@ -70,7 +70,7 @@ function Dcwb() {
             <h4 className="text-xl font-medium mb-2">
               Reliability & Strategic Clarity
             </h4>
-            <p className="text-gray-300 text-base">
+            <p className="text-gray-600 text-base">
               Every element of our tool is designed with stability,
               transparency, and discipline in mind — giving traders the
               confidence to operate with clarity under all market conditions.
@@ -89,7 +89,7 @@ function Dcwb() {
             <h4 className="text-xl font-medium mb-2">
               Customized for Traders, Not Coders
             </h4>
-            <p className="text-gray-300 text-base">
+            <p className="text-gray-600 text-base">
               Digi Core Wealth Builder V12 is made for traders — not developers.
               It adapts to your personal trading style, helping you stay focused
               on research, price behavior, and execution control.

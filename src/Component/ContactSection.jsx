@@ -12,7 +12,7 @@ export default function ContactSection() {
       />
       <div>
         <h3 className="text-xl font-semibold mb-2 pt-6">Request a Call Back</h3>
-        <p className="text-gray-300 text-sm">
+        <p className="text-gray-600 text-sm">
           Read more about how Algodelta works and how it can help you.
         </p>
       </div>
@@ -24,7 +24,7 @@ export default function ContactSection() {
             <MdWhatsapp />
           </div>
           <div className="text-left">
-            <p className="text-sm text-gray-300">Connect on WhatsApp</p>
+            <p className="text-sm text-gray-600">Connect on WhatsApp</p>
             <p className="text-orange-400 font-medium text-lg">
               +91 95376 74727
             </p>
@@ -36,7 +36,7 @@ export default function ContactSection() {
             <FiMessageCircle />
           </div>
           <div className="text-left">
-            <p className="text-sm text-gray-300">Begin a Quick Discussion</p>
+            <p className="text-sm text-gray-600">Begin a Quick Discussion</p>
             <p className="text-orange-400 font-medium text-lg">
               Live Chat With Us
             </p>

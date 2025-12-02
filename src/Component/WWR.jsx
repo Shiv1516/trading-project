@@ -11,7 +11,7 @@ function WWI() {
           <h2 className="text-3xl md:text-3xl lg:text-4xl font-semibold max-w-3xl leading-snug mb-5">
             Best Research-Based Trading Tool in India
           </h2>
-          <p className="leading-6 text-gray-300 mb-4">
+          <p className="leading-6 text-gray-600 mb-4">
             Digi Core Wealth Builder V12 is a next-generation research tool
             developed for serious traders in the financial markets. Created by a
             team of experienced analysts and market practitioners, it is built
@@ -23,7 +23,7 @@ function WWI() {
             feature is designed to meet the evolving needs of the Indian and
             global markets.
           </p>
-          <p className="leading-6 text-gray-300 mb-6">
+          <p className="leading-6 text-gray-600 mb-6">
             Digi Core Wealth Builder V12 prioritizes quality, security, and
             results. It supports structured decision-making for traders who
             prefer strategy over speculation. Whether you are refining your edge
